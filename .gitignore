@@ -1,20 +1,13 @@
-### Python ###
-__pycache__/
-.pylintrc
+#python stuff
 venv/
-
-
-### Django ###
+.pylintrc
 __pycache__/
-local_settings.py
-
-.env
-db.sqlite3
-
-
-media/
-node_modules/*
+cache/
 
 #ide stuff
 .vscode
 .idea
+
+#django stuff
+db.sqlite3
+media/
